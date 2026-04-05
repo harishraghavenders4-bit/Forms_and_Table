@@ -1,0 +1,57 @@
+
+
+body{
+    margin:20px;
+    background-color: beige;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+/* 1. Space for each label */
+label{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+/* Input spacing */
+input{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+input[type="email"],input[type="password"],input[type="text"]{
+    width:250px;
+}
+
+/* 2. Button styling */
+button{
+    background-color: #4CAF50;   /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px; /* 3. Space before hr */
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+button:hover{
+    background-color: #45a049;
+}
+
+/* 4. Table header color */
+th{
+    background-color: #007BFF;  /* Blue */
+    color: white;
+}
+
+/* Table spacing */
+table{
+    margin-top: 20px;
+}
+input:focus{
+    border:1px solid pink;
+}
